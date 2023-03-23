@@ -1,0 +1,206 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff3f3;
+  color: #232323;
+}
+#BtnCV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curriculo {
+  text-decoration: inherit;
+  display: inline;
+  font-family: sans-serif;
+  border: 2px solid #0066ff;
+  border-radius: 32px;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.curriculo:hover {
+  border-color: #ffd000;
+}
+.navBar {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  align-items: center;
+  list-style: none;
+  padding: 30px;
+  background-color: #ffd000;
+  color: #ffffff;
+}
+
+.navBar-item {
+  font-size: 40px;
+  display: inline;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  list-style-type: disc;
+  color: #232323;
+  font-family: sans-serif;
+}
+
+#perfil-Image {
+  margin-left: 89vh;
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.tittle {
+  margin-left: 89vh;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+}
+.AboutMain {
+  justify-content: baseline;
+  padding: 100px;
+  background-color: #ffd000;
+  margin-top: 30px;
+  border-radius: 10vmax;
+}
+.h3AboutContent {
+  font-size: 50px;
+  text-align: center;
+}
+.P-Content {
+  font-size: 30px;
+}
+.certification {
+  display: inline;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  list-style-type: disc;
+  color: #232323;
+  font-family: sans-serif;
+}
+.h1-CERTIFICATED {
+  text-align: center;
+  font-size: 40px;
+}
+.container-certification {
+  min-height: 100vh;
+  display: flex;
+  gap: 15px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.certificaded {
+  box-sizing: border-box;
+  width: 100% display flex;
+}
+.project {
+  padding: 10px;
+  gap: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+section {
+  display: block;
+}
+.projectProjectX:focus,
+.projectProjectX:hover {
+  scale: 1.02;
+}
+
+.projectProjectX {
+  width: 70vh;
+  height: 70vh;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  background-color: #ffd000;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 7px #000;
+}
+.navBar-item1 {
+  display: inline-block;
+
+  text-decoration: none;
+}
+nav,
+scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+}
+nav {
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid black;
+}
+scroll-container {
+  display: block;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+.scrollTop {
+  position: fixed;
+  bottom: 800px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffe600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+}
+.i {
+  font-size: 20px;
+}
+.scrollTop.active {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+}
+#contato {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd000;
+}
